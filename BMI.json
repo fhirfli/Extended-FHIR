@@ -1,0 +1,48 @@
+{
+  "resourceType": "Observation",
+  "id": "bmi",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+    ]
+  },
+  "status": "final",
+  "appliesDateTime":"2017-08-14T09:41:52",
+  "issued":"2017-08-14T09:41:52.000",
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/observation-category",
+          "code": "fitness",
+          "display": "Fitness data"
+        }
+      ],
+      "text": "Fitness data"
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "59574-4",
+        "display": "BMI"
+      } 
+	{
+        "system": "http://snomed.info/sct",
+        "code": "60621009",
+        "display": "BMI"
+      }   
+ ]
+  },
+  "subject": {
+    "reference": "Patient/example"
+  },
+  "effectiveDateTime": "1999-07-02",
+  "valueQuantity": {
+    "value": 15,
+    "unit": "kg/m2",
+    "system": "http://unitsofmeasure.org",
+    "code": "bmi"
+  }
+}

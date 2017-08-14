@@ -1,0 +1,226 @@
+{
+   "resourceType": "Bundle",
+   "type": "transaction",
+   "meta": {
+      "lastUpdated": "2017-08-09T13:40:17.213Z"
+       },
+   "entry": [
+      {
+         "fullUrl": "Observation/51007",
+         "request": {
+            "method": "PUT",
+            "url": "Observation/51007"
+         },
+         "resource": {
+            "resourceType": "Observation",
+            "id": "51007",
+            "extension": [
+               {
+                  "url": "isFavorite",
+                  "valueBoolean": true
+               },
+               {
+                  "url": "activityName",
+                  "valueString": "running"
+               }
+            ],
+            "status": "final",
+            "category": {
+               "coding": [
+                  {
+                     "system": "http://hl7.org/fhir/observation-category",
+                     "code": "fitness",
+                     "display": "Fitness data"
+                  }
+               ],
+               "text": "Fintess data"
+            },
+            "code": {
+               "coding": [
+                  {
+                     "system": "http://snomed.info/sct",
+                     "code": "257733005",
+                     "display": "Activity"
+                  },
+                  {
+                     "system": "http://loinc.org",
+                     "code": "73985-4",
+                     "display": "Exercise Activity"
+                  }
+               ]
+            },
+            "subject": {
+               "reference": "Patient/example"
+            },
+            "effectivePeriod": {
+               "start": "1997-07-16T19:20:30+01:00",
+               "end": "1997-07-16T20:20:30+01:00"
+            },
+            "comments": "Moderate - 12 to 13.9mph",
+            "component": [
+               {
+                  "code": {
+                     "coding": [
+                        {
+                           "system": "http://loinc.org",
+                           "code": "41981-2",
+                           "display": "Calories burned"
+                        }
+                     ]
+                  },
+                  "valueQuantity": {
+                     "value": "45.0",
+                     "unit": "kcal",
+                     "system": "http://unitsofmeasure.org"
+                  }
+               },
+               {
+                  "code": {
+                     "coding": [
+                        {
+                           "system": "http://snomed.info/sct",
+                           "code": "103335007",
+                           "display": "Duration"
+                        },
+                        {
+                           "system": "http://loinc.org",
+                           "code": "55411-3",
+                           "display": "Exercise duration"
+                        }
+                     ]
+                  },
+                  "valueQuantity": {
+                     "value": "36.0",
+                     "unit": "minutes",
+                     "system": "http://unitsofmeasure.org"
+                  }
+               },
+               {
+                  "code": {
+                     "coding": [
+                        {
+                           "system": "http://loinc.org",
+                           "code": "55412-1",
+                           "display": "Exercise distance"
+                        }
+                     ]
+                  },
+                  "valueQuantity": {
+                     "value": "2.0",
+                     "unit": "km",
+                     "system": "http://unitsofmeasure.org"
+                  }
+               }
+            ]
+         }
+      },
+      {
+         "fullUrl": "Observation/12030",
+         "request": {
+            "method": "PUT",
+            "url": "Observation/12030"
+         },
+         "resource": {
+            "resourceType": "Observation",
+            "id": "12030",
+            "extension": [
+               {
+                  "url": "isFavorite",
+                  "valueBoolean": true
+               },
+               {
+                  "url": "activityName",
+                  "valueString": "swimming"
+               }
+            ],
+            "status": "final",
+            "category": {
+               "coding": [
+                  {
+                     "system": "http://hl7.org/fhir/observation-category",
+                     "code": "fitness",
+                     "display": "Fitness data"
+                  }
+               ],
+               "text": "Fintess data"
+            },
+            "code": {
+               "coding": [
+                  {
+                     "system": "http://snomed.info/sct",
+                     "code": "257733005",
+                     "display": "Activity"
+                  },
+                  {
+                     "system": "http://loinc.org",
+                     "code": "73985-4",
+                     "display": "Exercise Activity"
+                  }
+               ]
+            },
+            "subject": {
+               "reference": "Patient/example"
+            },
+            "effectivePeriod": {
+               "start": "1997-07-16T18:20:30+01:00",
+               "end": "1997-07-16T21:20:30+01:00"
+            },
+            "component": [
+               {
+                  "code": {
+                     "coding": [
+                        {
+                           "system": "http://loinc.org",
+                           "code": "41981-2",
+                           "display": "Calories burned"
+                        }
+                     ]
+                  },
+                  "valueQuantity": {
+                     "value": "75.0",
+                     "unit": "kcal",
+                     "system": "http://unitsofmeasure.org"
+                  }
+               },
+               {
+                  "code": {
+                     "coding": [
+                        {
+                           "system": "http://snomed.info/sct",
+                           "code": "103335007",
+                           "display": "Duration"
+                        },
+                        {
+                           "system": "http://loinc.org",
+                           "code": "55411-3",
+                           "display": "Exercise duration"
+                        }
+                     ]
+                  },
+                  "valueQuantity": {
+                     "value": "37.0",
+                     "unit": "minutes",
+                     "system": "http://unitsofmeasure.org"
+                  }
+               },
+               {
+                  "code": {
+                     "coding": [
+                        {
+                           "system": "http://loinc.org",
+                           "code": "55412-1",
+                           "display": "Exercise distance"
+                        }
+                     ]
+                  },
+                  "valueQuantity": {
+                     "value": "8.9",
+                     "unit": "km",
+                     "system": "http://unitsofmeasure.org"
+                  }
+               }
+            ]
+         }
+      }
+   ]
+}
