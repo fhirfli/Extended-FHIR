@@ -1,0 +1,47 @@
+{
+  "resourceType": "Observation",
+  "id": "average-steps",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+    ]
+  },
+  "status": "final",
+  "issued":"2017-08-14T09:41:52.000",
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/observation-category",
+          "code": "fitness",
+          "display": "Fitness data"
+        }
+      ],
+      "text": "Fitness data"
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "41950-7",
+        "display": "Average steps"
+      }, 
+    {
+        "system": "http://snomed.info/sct",
+        "code": "",
+        "display": "Average steps"
+      }   
+ ]
+  },
+  "subject": {
+    "reference": "Patient/example"
+  },
+  "effectiveDateTime": "1999-07-02",
+  "valueQuantity": {
+    "value": 2500,
+    "unit": "steps",
+    "system": "http://unitsofmeasure.org",
+    "code": "steps"
+  }
+}
